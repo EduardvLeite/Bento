@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+
+/* INICIO Navbar CSS */
+.navbar{
+    border-radius: 2em;
+    border: 2px solid black;
+    width: 1000px;
+    height: 90px;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    margin: auto;
+}
+
+.navhome{
+    text-decoration: none;
+    padding: 15px 10px 10px 50px;
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid black;
+}
+.navhome:hover{
+  background-color: darkgray;
+  font-size: 20px;
+  transform: scale(1.1);
+}
+
+.navjapao{
+    text-decoration: none;
+    padding: 15px 10px 10px 50px;
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid black;
+}
+.navjapao:hover{
+  background-color: darkgray;
+  font-size: 20px;
+  transform: scale(1.1);
+}
+
+.navalemanha{
+    text-decoration: none;  
+    padding: 15px 10px 10px 50px;
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    border: 2px solid black;
+}
+.navalemanha:hover{
+  background-color: darkgray;
+  font-size: 20px;
+  transform: scale(1.1);
+}
+
+/* FIM navbar CSS */
+
+/* Teste Menu*/
+
+.menuItem {
+    display: block;
+    margin: 2rem 4rem;
+    font-size: 1.8rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menuItem:hover {
+    text-decoration: underline;
+  }
+  
+  .hamburger {
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    right: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: white;
+    cursor: pointer;
+  }
+  
+  .closeIcon {
+    display: none;
+  }
+  
+  .arco {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  .luvre {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  .sacre {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  .museu {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  .catedral {
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+  .margin{
+    margin-bottom: 10px;
+  }
+
+
+  .torre{
+    position: fixed;
+    transform: translateY(-100%);
+    transition: transform 0.2s;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 99;
+    background: black;
+    color: white;
+    list-style: none;
+    padding-top: 4rem;
+  }
+
+  .showMenu {
+    transform: translateY(0);
+  }
+
+/*Teste menu*/
+
+
+
+
+
+/* INICIO Bento */
+.conteiner{
+    width: 1000px;
+    height: 700px;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+    margin: auto;
+}
+.col-left{
+    flex: 2;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.col-right{
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.material-icons:hover{
+  transform: scale(1.1);
+}
+
+.col-left1{
+    flex: 2;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.col-right1{
+    flex: 1;
+    border-radius: 2em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.row{
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+.row2{
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 2em;
+}
+.row1{
+    display: flex;
+    border:none;
+    gap:1em;
+}
+.row-col{
+    border: 2px solid black;
+    flex:1;
+    border-radius: 2em;
+}
+.row-col2{
+    border: 2px solid black;
+    flex:1;
+    border-radius: 2em;
+}
+.format{
+    padding: 10px;
+}
+
+/* FIM Bento*/
+
+.conteiner-img{
+    margin-left: 40px;
+}
+.texto-arco{
+    margin: auto;
+    width: 1000px;
+    height: 300px;
+}
